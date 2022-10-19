@@ -11,11 +11,76 @@
 </head>
 <body>
     <div class="container">
+        <div class="weather-app">
+          <form class="search-form" id="search-form">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  autofocus="on"
+                  autocomplete="off"
+                  id="city-input"
+                  class="form-control shadow-sm"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary shadow-sm w-100"
+                />
+              </div>
+              <div class="col-3">
+                <button
+                  class="btn btn-success w-100"
+                  id="current-location-button"
+                >
+                  Current
+                </button>
+              </div>
+            </div>
+          </form>
         <h1>
             Uzhorod
         </h1>
-        <a href="" class="btn btn-primary">Current weather</a>
+      <h2>
+        <ul>
+          <li>
+            Wednesday 10:35
+          </li>
+          <li>
+            Clear
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
+            alt="Clear"/>
+            12 °C | °F
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                Precipitation: 0%
+              </li>
+              <li>
+                Humidity: 73%
+              </li>
+              <li>
+                Wind: 2km/h
+              </li>
+            </ul>
+          </div>
+        </div>
+      </h2>  
     </div>  
+    <small>
+      <a href="https://github.com/Yoshimurka/weather-app"
+      target="_blank"
+      >Open-source code</a> 
+      by Diana Tereshchenko
+    </small>
 </body>
 <script src="src/app.js"></script>
 </html>

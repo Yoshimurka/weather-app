@@ -1,12 +1,14 @@
 body {
     font-family: arial, sans-serif;
-    background: lightblue;
+    background-image: url("https://miro.medium.com/max/1400/1*ZhuqSg8Jmz4p8H6X5U1uzQ.png");
+    background-repeat: no-repeat;
+    background-position: center;
 
   }
   
   h1 {
-    color: #878787;
-    font-size: 24px;
+    color: black;
+    font-size: 34px;
     font-weight: 100;
     line-height: 28px;
     margin-bottom: 0;
@@ -22,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
   
-    color: rgb(135, 135, 135);
+    color: black;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
@@ -35,6 +37,8 @@ body {
   .weather-app-wrapper {
     max-width: 600px;
     margin: 30px auto;
+    color:black;
+
   }
   
   .weather-app {
